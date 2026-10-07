@@ -1,6 +1,8 @@
-Version 1.4.3
+Version 1.5.0
 
-• Fixes the Settings window spacing so labels no longer touch or clip against the left edge.
-• Keeps the v1.4.1 Keychain compatibility fix, launch authentication, auto-lock, Sparkle updates, and local install approval.
-• Changes the release pipeline so a version bump automatically runs tests, builds, signs, and publishes the Sparkle update.
-• Installed Macs still decide whether to install each update; updates are never silently forced.
+• Automatically prompts for Touch ID or your Mac login password as soon as the app launches.
+• If you cancel the prompt, the locked screen remains available with a manual Unlock button.
+• Adds a Liquid Glass-inspired visual refresh using native SwiftUI materials and standard macOS controls.
+• Redesigns the toolbar, filters, conversation browser, status bar, chat transcript, locked screen, attachment cards, and Settings presentation.
+• Uses an Activity Monitor-inspired hierarchy with translucent chrome, native tables, restrained controls, and a compact status strip.
+• Keeps the v1.4.x Keychain protections, auto-locking, Sparkle signature verification, and user-approved installs.
