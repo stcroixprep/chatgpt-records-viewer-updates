@@ -1,5 +1,8 @@
-Version 1.6.11
+Version 1.6.12
 
-• Removes the duplicate retrieval progress bar from the main window status area.
-• Keeps the progress bar only inside the Retrieve Conversation Records window, where the download is being managed.
-• Leaves the main status bar available for concise status text without a second progress line.
+• Keeps the conversation list full-width until a conversation or message is selected.
+• Opens the chat preview only after an explicit selection.
+• Replaces the draggable horizontal split view with a fixed, non-resizable preview layout so the conversation pane no longer slides left and right.
+• Adds a native macOS-style close button to the chat preview header; closing it returns to the full-width conversation list.
+• Improves attachment retrieval for current ChatGPT file storage: first tries the documented user-file Compliance endpoint, then resolves active Library-backed files through the Library Compliance endpoints when the conversation file reference is no longer directly downloadable.
+• Handles documented file-download redirects explicitly while retaining the existing Retry experience for genuinely unavailable or expired files.

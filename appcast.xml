@@ -7,21 +7,24 @@
     <description>St. Croix Prep ChatGPT Records Viewer updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.6.11</title>
-      <pubDate>Wed, 07 Oct 2026 19:23:36 +0000</pubDate>
-      <sparkle:version>1.6.11</sparkle:version>
-      <sparkle:shortVersionString>1.6.11</sparkle:shortVersionString>
+      <title>Version 1.6.12</title>
+      <pubDate>Wed, 07 Oct 2026 19:29:49 +0000</pubDate>
+      <sparkle:version>1.6.12</sparkle:version>
+      <sparkle:shortVersionString>1.6.12</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.11
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.12
 
-• Removes the duplicate retrieval progress bar from the main window status area.
-• Keeps the progress bar only inside the Retrieve Conversation Records window, where the download is being managed.
-• Leaves the main status bar available for concise status text without a second progress line.
+• Keeps the conversation list full-width until a conversation or message is selected.
+• Opens the chat preview only after an explicit selection.
+• Replaces the draggable horizontal split view with a fixed, non-resizable preview layout so the conversation pane no longer slides left and right.
+• Adds a native macOS-style close button to the chat preview header; closing it returns to the full-width conversation list.
+• Improves attachment retrieval for current ChatGPT file storage: first tries the documented user-file Compliance endpoint, then resolves active Library-backed files through the Library Compliance endpoints when the conversation file reference is no longer directly downloadable.
+• Handles documented file-download redirects explicitly while retaining the existing Retry experience for genuinely unavailable or expired files.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="xGTkF6GiT/9mOtCAGO3NlDsVto7jRCNCklNY36//NDIjNZXqg/r9R+/7gPccocalFfPtwj8aVMPUlexwGgH9Dg=="
-        length="2895896"
+        sparkle:edSignature="Rgl2O1Ef5Fn3oPEkqoX/CzwE8cYuuIVtjctYaG6CIMeMg6P6m4ysO5mnox2EL23rSp4nPn01JTvsLdyZwNuvCg=="
+        length="2912134"
         type="application/octet-stream" />
     </item>
   </channel>
