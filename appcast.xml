@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>ChatGPT Records Viewer Updates</title>
+    <link>https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/appcast.xml</link>
+    <description>St. Croix Prep ChatGPT Records Viewer updates</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.4.0</title>
+      <pubDate>Wed, 07 Oct 2026 13:42:00 +0000</pubDate>
+      <sparkle:version>1.4.0</sparkle:version>
+      <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.4.0
+
+• Requires Touch ID or the Mac login password every time Records Viewer launches.
+• Stores the OpenAI Admin key in macOS Keychain with user-presence protection.
+• Keeps the Admin key only in memory during an unlocked session.
+• Adds Lock Records Viewer and clears loaded records/attachments when locked.
+• Auto-locks after inactivity (15 minutes by default) and when the Mac session locks or sleeps.
+• Locks the Settings window until Records Viewer is authenticated.
+• Keeps Sparkle updates user-approved and adds a separate manual GitHub release-approval workflow.
+</pre>]]></description>
+      <enclosure
+        url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
+        sparkle:edSignature="oFRKbX024T90qZ+onOsrlAXr/TA7Q0mXlWgOrB15Y5Hma4dQ2rWc5Ef+OZ18L9VdCq+dgrLXtFTPSugtedgbCQ=="
+        length="2752507"
+        type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
