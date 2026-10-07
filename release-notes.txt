@@ -1,12 +1,4 @@
-Version 1.6.3
+Version 1.6.4
 
-• Simplifies the retrieval form to Staff user, message search terms, and date range.
-• Removes the extra Select control, Conversation title, and Speaker controls.
-• Uses white backgrounds for text-entry fields and fixes the duplicate Staff email chevron.
-• Keeps the retrieval action buttons fixed at the bottom while records download.
-• Shows green connection checkmarks when retrieval is ready.
-• Keeps the conversations table and headers contained within the left pane.
-• Replaces the sparkle avatar with the app icon for ChatGPT messages.
-• Shows an animated confirmation after CSV, transcript, or attachment saves.
-• Removes duplicate compliance events before rendering.
-• Improves attachment reference detection and file retrieval diagnostics.
+• Replaces the custom Records Viewer app icon beside ChatGPT responses with the official OpenAI blossom mark.
+• Enlarges the Retrieve Conversation Records window to give the download-progress status more space above the bottom action bar.

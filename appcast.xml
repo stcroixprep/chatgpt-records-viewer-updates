@@ -7,28 +7,20 @@
     <description>St. Croix Prep ChatGPT Records Viewer updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.6.3</title>
-      <pubDate>Wed, 07 Oct 2026 16:08:19 +0000</pubDate>
-      <sparkle:version>1.6.3</sparkle:version>
-      <sparkle:shortVersionString>1.6.3</sparkle:shortVersionString>
+      <title>Version 1.6.4</title>
+      <pubDate>Wed, 07 Oct 2026 17:11:06 +0000</pubDate>
+      <sparkle:version>1.6.4</sparkle:version>
+      <sparkle:shortVersionString>1.6.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.3
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.4
 
-• Simplifies the retrieval form to Staff user, message search terms, and date range.
-• Removes the extra Select control, Conversation title, and Speaker controls.
-• Uses white backgrounds for text-entry fields and fixes the duplicate Staff email chevron.
-• Keeps the retrieval action buttons fixed at the bottom while records download.
-• Shows green connection checkmarks when retrieval is ready.
-• Keeps the conversations table and headers contained within the left pane.
-• Replaces the sparkle avatar with the app icon for ChatGPT messages.
-• Shows an animated confirmation after CSV, transcript, or attachment saves.
-• Removes duplicate compliance events before rendering.
-• Improves attachment reference detection and file retrieval diagnostics.
+• Replaces the custom Records Viewer app icon beside ChatGPT responses with the official OpenAI blossom mark.
+• Enlarges the Retrieve Conversation Records window to give the download-progress status more space above the bottom action bar.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="Bj//bp3UpRClWjvHajiwTeeQQ5s/25UHPHfiQ6zg+WP0usPVBfPR+bTM+iNstFi2w4KhreriykfyXsrnYWb1BA=="
-        length="2862356"
+        sparkle:edSignature="rQvFX27YzRBixA75YxK6Ps+WzOMK5tSX7Ao4FUm10HwoJGvjeCybNXAjl5hLVpxEIVgLzyfw53irbg+SbNx0CA=="
+        length="2869118"
         type="application/octet-stream" />
     </item>
   </channel>
