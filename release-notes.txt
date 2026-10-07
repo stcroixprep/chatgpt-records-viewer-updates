@@ -1,7 +1,8 @@
-Version 1.6.1
+Version 1.6.2
 
-• Fixes the double-authentication experience when opening Records Viewer.
-• New Admin-key storage uses Keychain access control with userPresence and reuses the same LocalAuthentication context that already satisfied Touch ID or the Mac login password.
-• Existing installs automatically migrate the legacy Keychain item the first time 1.6.1 unlocks it. Because the old item used macOS's legacy app-access ACL, that migration may require the login Keychain password one final time; subsequent launches should use only the normal Touch ID / Mac authentication flow.
-• Fixes the Staff email filter so the user-selection chevron is an inline trailing control and stays vertically aligned inside the field.
-• Keeps all v1.6.0 Liquid Glass, contrast, security, auto-lock, Sparkle signing, and update behavior.
+• Fixes the -34018 “A required entitlement is not present” Keychain error introduced in 1.6.1.
+• The current public build is still ad-hoc signed, so it cannot use the data-protection Keychain mode that requires application entitlements.
+• Restores the traditional macOS Keychain storage path while keeping Touch ID / Mac authentication as the app gate before protected data is loaded.
+• Existing stored credentials remain compatible.
+• On an ad-hoc-signed build, macOS may ask for Keychain trust again after an app update. Choosing “Always Allow” trusts the currently installed build.
+• Keeps the Staff email chevron alignment fix from 1.6.1.
