@@ -1,8 +1,8 @@
-Version 1.5.1
+Version 1.6.0
 
-• Redesigns the Retrieve window with Google Vault-style search criteria.
-• Adds a staff-user field with a selectable list of users already loaded in the current session, plus direct email entry.
-• Adds message search terms, conversation-title filtering, speaker selection, and From/Through date criteria before retrieval.
-• Preset date buttons for Today, Last 24 Hours, and Last 7 Days remain available.
-• Retrieval still uses OpenAI's time-based Compliance log feed; user/text/title/speaker criteria are applied locally immediately after download.
-• Search criteria carry into the main viewer so the returned result set is already filtered when the Retrieve window closes.
+• Increases overall contrast so settings cards, chat content, tables, and transcript areas remain clearly legible over desktop content.
+• Uses Apple's current SwiftUI Liquid Glass APIs for interactive controls, including glassEffect, interactive glass, and native glass button styles when available.
+• Builds with the Xcode 27 GitHub runner so macOS 27 can use the newest Liquid Glass behavior.
+• Keeps content surfaces more solid while reserving Liquid Glass for controls and navigation, matching Apple's current design guidance.
+• Removes the “Local” pill and the lock button from the main toolbar.
+• Keeps locking available from Settings and preserves Touch ID / Mac password authentication, Keychain storage, auto-lock, Sparkle signing, and user-approved updates.
