@@ -1,8 +1,9 @@
-Version 1.6.12
+Version 1.6.13
 
-• Keeps the conversation list full-width until a conversation or message is selected.
-• Opens the chat preview only after an explicit selection.
-• Replaces the draggable horizontal split view with a fixed, non-resizable preview layout so the conversation pane no longer slides left and right.
-• Adds a native macOS-style close button to the chat preview header; closing it returns to the full-width conversation list.
-• Improves attachment retrieval for current ChatGPT file storage: first tries the documented user-file Compliance endpoint, then resolves active Library-backed files through the Library Compliance endpoints when the conversation file reference is no longer directly downloadable.
-• Handles documented file-download redirects explicitly while retaining the existing Retry experience for genuinely unavailable or expired files.
+• Compresses the conversation list when a chat preview opens instead of allowing the list to slide horizontally underneath the preview.
+• Replaces the Threads table with a vertical-only conversation list whose columns resize to the available width, eliminating horizontal scrolling in the conversation list.
+• Keeps the chat preview fixed on the right and restores the full-width conversation list when the preview is closed.
+• Makes long ChatGPT responses easier to read by preserving Markdown structure and visually splitting dense single-paragraph answers into shorter paragraphs without changing the underlying message text.
+• Fixes attachment downloads to follow the Compliance API's documented 307 file redirects as clean signed-URL requests rather than forwarding the Admin API authentication request through the redirect.
+• Falls back from expired or missing temporary chat-file references to matching active Library files when available.
+• Shows the actual attachment retrieval error in the preview when a file still cannot be downloaded, making permission or retention problems visible instead of hiding them behind a generic message.
