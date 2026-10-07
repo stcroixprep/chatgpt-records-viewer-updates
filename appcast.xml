@@ -2,30 +2,28 @@
 <rss version="2.0"
      xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>ChatGPT Records Viewer Updates</title>
+    <title>ChatGPT Records Updates</title>
     <link>https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/appcast.xml</link>
-    <description>St. Croix Prep ChatGPT Records Viewer updates</description>
+    <description>St. Croix Prep ChatGPT Records updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.6.13</title>
-      <pubDate>Wed, 07 Oct 2026 19:50:22 +0000</pubDate>
-      <sparkle:version>1.6.13</sparkle:version>
-      <sparkle:shortVersionString>1.6.13</sparkle:shortVersionString>
+      <title>Version 1.6.14</title>
+      <pubDate>Wed, 07 Oct 2026 23:47:49 +0000</pubDate>
+      <sparkle:version>1.6.14</sparkle:version>
+      <sparkle:shortVersionString>1.6.14</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.13
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.14
 
-• Compresses the conversation list when a chat preview opens instead of allowing the list to slide horizontally underneath the preview.
-• Replaces the Threads table with a vertical-only conversation list whose columns resize to the available width, eliminating horizontal scrolling in the conversation list.
-• Keeps the chat preview fixed on the right and restores the full-width conversation list when the preview is closed.
-• Makes long ChatGPT responses easier to read by preserving Markdown structure and visually splitting dense single-paragraph answers into shorter paragraphs without changing the underlying message text.
-• Fixes attachment downloads to follow the Compliance API&#x27;s documented 307 file redirects as clean signed-URL requests rather than forwarding the Admin API authentication request through the redirect.
-• Falls back from expired or missing temporary chat-file references to matching active Library files when available.
-• Shows the actual attachment retrieval error in the preview when a file still cannot be downloaded, making permission or retention problems visible instead of hiding them behind a generic message.
+• Renames the installed application, main window, lock controls, and relevant interface text to ChatGPT Records.
+• Adds a successful-authentication unlock animation: the lock opens, a green confirmation ring animates, and the app displays a brief “Opening ChatGPT Records…” confirmation before showing records.
+• Respects the macOS Reduce Motion preference.
+• Keeps the existing bundle identifier, Keychain identity, Sparkle public key, and update feed so the existing installation can continue updating.
+• Renames the compiled .app, ZIP, DMG, and GitHub build artifacts, while retaining the existing public update archive URL for backwards compatibility.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="FNV5MKlBpIMw/T+v2lMXUTju10kdJ75KPJ6q3hYH9uzVHpDYobVkHskMu1zATdOAqGzY/zgup6inATDf/5lvBg=="
-        length="2945599"
+        sparkle:edSignature="94lGksVL3b3tKS1DpwkQR4HVMc1+h3tt84ZjdOVaHrhu5Xavh13A/eo6YKCI10OWNb2WTMT8odEstpvo+ElRBg=="
+        length="2953100"
         type="application/octet-stream" />
     </item>
   </channel>

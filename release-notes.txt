@@ -1,9 +1,7 @@
-Version 1.6.13
+Version 1.6.14
 
-• Compresses the conversation list when a chat preview opens instead of allowing the list to slide horizontally underneath the preview.
-• Replaces the Threads table with a vertical-only conversation list whose columns resize to the available width, eliminating horizontal scrolling in the conversation list.
-• Keeps the chat preview fixed on the right and restores the full-width conversation list when the preview is closed.
-• Makes long ChatGPT responses easier to read by preserving Markdown structure and visually splitting dense single-paragraph answers into shorter paragraphs without changing the underlying message text.
-• Fixes attachment downloads to follow the Compliance API's documented 307 file redirects as clean signed-URL requests rather than forwarding the Admin API authentication request through the redirect.
-• Falls back from expired or missing temporary chat-file references to matching active Library files when available.
-• Shows the actual attachment retrieval error in the preview when a file still cannot be downloaded, making permission or retention problems visible instead of hiding them behind a generic message.
+• Renames the installed application, main window, lock controls, and relevant interface text to ChatGPT Records.
+• Adds a successful-authentication unlock animation: the lock opens, a green confirmation ring animates, and the app displays a brief “Opening ChatGPT Records…” confirmation before showing records.
+• Respects the macOS Reduce Motion preference.
+• Keeps the existing bundle identifier, Keychain identity, Sparkle public key, and update feed so the existing installation can continue updating.
+• Renames the compiled .app, ZIP, DMG, and GitHub build artifacts, while retaining the existing public update archive URL for backwards compatibility.
