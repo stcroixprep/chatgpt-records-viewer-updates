@@ -7,25 +7,22 @@
     <description>St. Croix Prep ChatGPT Records Viewer updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.4.0</title>
-      <pubDate>Wed, 07 Oct 2026 13:42:00 +0000</pubDate>
-      <sparkle:version>1.4.0</sparkle:version>
-      <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+      <title>Version 1.4.3</title>
+      <pubDate>Wed, 07 Oct 2026 14:06:16 +0000</pubDate>
+      <sparkle:version>1.4.3</sparkle:version>
+      <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.4.0
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.4.3
 
-• Requires Touch ID or the Mac login password every time Records Viewer launches.
-• Stores the OpenAI Admin key in macOS Keychain with user-presence protection.
-• Keeps the Admin key only in memory during an unlocked session.
-• Adds Lock Records Viewer and clears loaded records/attachments when locked.
-• Auto-locks after inactivity (15 minutes by default) and when the Mac session locks or sleeps.
-• Locks the Settings window until Records Viewer is authenticated.
-• Keeps Sparkle updates user-approved and adds a separate manual GitHub release-approval workflow.
+• Fixes the Settings window spacing so labels no longer touch or clip against the left edge.
+• Keeps the v1.4.1 Keychain compatibility fix, launch authentication, auto-lock, Sparkle updates, and local install approval.
+• Changes the release pipeline so a version bump automatically runs tests, builds, signs, and publishes the Sparkle update.
+• Installed Macs still decide whether to install each update; updates are never silently forced.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="oFRKbX024T90qZ+onOsrlAXr/TA7Q0mXlWgOrB15Y5Hma4dQ2rWc5Ef+OZ18L9VdCq+dgrLXtFTPSugtedgbCQ=="
-        length="2752507"
+        sparkle:edSignature="rRG+h78Oi9d2R9nMAHMg0iIn91HxnpvuGEF1d3zx6pdwy23yZVeS/pXxnLeAaK85Wey87+JApjPUKREArnnhDw=="
+        length="2756469"
         type="application/octet-stream" />
     </item>
   </channel>

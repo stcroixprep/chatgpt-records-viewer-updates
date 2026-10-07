@@ -1,9 +1,6 @@
-Version 1.4.0
+Version 1.4.3
 
-• Requires Touch ID or the Mac login password every time Records Viewer launches.
-• Stores the OpenAI Admin key in macOS Keychain with user-presence protection.
-• Keeps the Admin key only in memory during an unlocked session.
-• Adds Lock Records Viewer and clears loaded records/attachments when locked.
-• Auto-locks after inactivity (15 minutes by default) and when the Mac session locks or sleeps.
-• Locks the Settings window until Records Viewer is authenticated.
-• Keeps Sparkle updates user-approved and adds a separate manual GitHub release-approval workflow.
+• Fixes the Settings window spacing so labels no longer touch or clip against the left edge.
+• Keeps the v1.4.1 Keychain compatibility fix, launch authentication, auto-lock, Sparkle updates, and local install approval.
+• Changes the release pipeline so a version bump automatically runs tests, builds, signs, and publishes the Sparkle update.
+• Installed Macs still decide whether to install each update; updates are never silently forced.
