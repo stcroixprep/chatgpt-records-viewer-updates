@@ -1,8 +1,7 @@
-Version 1.6.0
+Version 1.6.1
 
-• Increases overall contrast so settings cards, chat content, tables, and transcript areas remain clearly legible over desktop content.
-• Uses Apple's current SwiftUI Liquid Glass APIs for interactive controls, including glassEffect, interactive glass, and native glass button styles when available.
-• Builds with the Xcode 27 GitHub runner so macOS 27 can use the newest Liquid Glass behavior.
-• Keeps content surfaces more solid while reserving Liquid Glass for controls and navigation, matching Apple's current design guidance.
-• Removes the “Local” pill and the lock button from the main toolbar.
-• Keeps locking available from Settings and preserves Touch ID / Mac password authentication, Keychain storage, auto-lock, Sparkle signing, and user-approved updates.
+• Fixes the double-authentication experience when opening Records Viewer.
+• New Admin-key storage uses Keychain access control with userPresence and reuses the same LocalAuthentication context that already satisfied Touch ID or the Mac login password.
+• Existing installs automatically migrate the legacy Keychain item the first time 1.6.1 unlocks it. Because the old item used macOS's legacy app-access ACL, that migration may require the login Keychain password one final time; subsequent launches should use only the normal Touch ID / Mac authentication flow.
+• Fixes the Staff email filter so the user-selection chevron is an inline trailing control and stays vertically aligned inside the field.
+• Keeps all v1.6.0 Liquid Glass, contrast, security, auto-lock, Sparkle signing, and update behavior.
