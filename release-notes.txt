@@ -1,8 +1,8 @@
-Version 1.6.7
+Version 1.6.8
 
-• Makes the toolbar customizer feel more like Apple Mail and other macOS apps.
-• Adds a fixed Space item and a Flexible Space item for toolbar layout.
-• Allows multiple Space and Flexible Space items to be inserted, reordered, and removed.
-• Shows a live Current Toolbar preview so spacing choices are easier to understand.
-• Fixed Space creates a consistent empty gap; Flexible Space expands to push later controls toward the far side.
-• Keeps Icon and Text, Icon Only, Text Only, show/hide controls, reordering, and Restore Default Set.
+• Replaces the simulated in-content toolbar with a real native macOS NSToolbar integrated into the window title bar.
+• Right-click anywhere in the native toolbar to use the standard macOS Icon and Text, Icon Only, Text Only, and Customize Toolbar… menu.
+• Uses Apple’s built-in Customize Toolbar palette so buttons, Space, Flexible Space, and the default set can be dragged directly into and out of the toolbar.
+• Native toolbar customizations are automatically saved and restored by macOS.
+• Preserves Paste/Open, the standalone wide Retrieve action, CSV/Transcript, Threads/Messages, Settings, and the user’s existing toolbar layout as the starting configuration.
+• Removes the separate custom toolbar editor because the system toolbar now provides the same interaction as Apple Mail and other Mac apps.
