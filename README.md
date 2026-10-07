@@ -9,4 +9,4 @@ This repository intentionally contains only:
 
 It does **not** contain application source code, OpenAI credentials, school records, workspace data, or private signing keys.
 
-Current published version: **1.6.5**
+Current published version: **1.6.6**

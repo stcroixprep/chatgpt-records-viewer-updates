@@ -7,23 +7,23 @@
     <description>St. Croix Prep ChatGPT Records Viewer updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.6.5</title>
-      <pubDate>Wed, 07 Oct 2026 18:12:42 +0000</pubDate>
-      <sparkle:version>1.6.5</sparkle:version>
-      <sparkle:shortVersionString>1.6.5</sparkle:shortVersionString>
+      <title>Version 1.6.6</title>
+      <pubDate>Wed, 07 Oct 2026 18:27:17 +0000</pubDate>
+      <sparkle:version>1.6.6</sparkle:version>
+      <sparkle:shortVersionString>1.6.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.5
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.6
 
-• Reworks the top toolbar into Apple Mail-style pill groups with icon-first controls.
-• Shows compact labels below toolbar icons by default, with a setting and toolbar context-menu option to hide them.
-• Replaces retrieval spinners with a full-width linear progress bar.
-• Shows determinate log-download progress as each Compliance log file completes and an indeterminate bar while log files are being listed.
-• Mirrors retrieval progress in the Retrieve window and across the main window status area.
+• Makes Retrieve its own standalone double-wide toolbar button instead of grouping it with Paste and Open.
+• Adds a Customize Toolbar window for showing, hiding, and reordering toolbar groups.
+• Adds Apple Mail-style toolbar display choices: Icon and Text, Icon Only, and Text Only.
+• Adds Customize Toolbar… to the toolbar context menu and Settings &gt; Appearance.
+• Preserves the default grouped pills for Paste/Open, CSV/Transcript, and Threads/Messages while allowing the overall toolbar layout to be rearranged.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="Nkw4FMsCNrwFI2n+iqf/VFaHv5JTnaJwLWATGacOUQb5aPM3eHNibQ0/pt3XCLXxASA0LQGTePOIPhKepTqNCw=="
-        length="2895652"
+        sparkle:edSignature="afV9FxmWOzXnZMxF+RkTYQ3sHPnOYKq/V7Orhq1ffcKN8N0nVnsoENXm6rBvlshUOmhZ1vJTyjjmu3XTj34mBw=="
+        length="2945817"
         type="application/octet-stream" />
     </item>
   </channel>
