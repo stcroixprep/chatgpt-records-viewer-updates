@@ -1,8 +1,8 @@
-Version 1.5.0
+Version 1.5.1
 
-• Automatically prompts for Touch ID or your Mac login password as soon as the app launches.
-• If you cancel the prompt, the locked screen remains available with a manual Unlock button.
-• Adds a Liquid Glass-inspired visual refresh using native SwiftUI materials and standard macOS controls.
-• Redesigns the toolbar, filters, conversation browser, status bar, chat transcript, locked screen, attachment cards, and Settings presentation.
-• Uses an Activity Monitor-inspired hierarchy with translucent chrome, native tables, restrained controls, and a compact status strip.
-• Keeps the v1.4.x Keychain protections, auto-locking, Sparkle signature verification, and user-approved installs.
+• Redesigns the Retrieve window with Google Vault-style search criteria.
+• Adds a staff-user field with a selectable list of users already loaded in the current session, plus direct email entry.
+• Adds message search terms, conversation-title filtering, speaker selection, and From/Through date criteria before retrieval.
+• Preset date buttons for Today, Last 24 Hours, and Last 7 Days remain available.
+• Retrieval still uses OpenAI's time-based Compliance log feed; user/text/title/speaker criteria are applied locally immediately after download.
+• Search criteria carry into the main viewer so the returned result set is already filtered when the Retrieve window closes.

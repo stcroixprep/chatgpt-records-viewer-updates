@@ -7,24 +7,24 @@
     <description>St. Croix Prep ChatGPT Records Viewer updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.5.0</title>
-      <pubDate>Wed, 07 Oct 2026 14:21:30 +0000</pubDate>
-      <sparkle:version>1.5.0</sparkle:version>
-      <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+      <title>Version 1.5.1</title>
+      <pubDate>Wed, 07 Oct 2026 14:46:30 +0000</pubDate>
+      <sparkle:version>1.5.1</sparkle:version>
+      <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.5.0
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.5.1
 
-• Automatically prompts for Touch ID or your Mac login password as soon as the app launches.
-• If you cancel the prompt, the locked screen remains available with a manual Unlock button.
-• Adds a Liquid Glass-inspired visual refresh using native SwiftUI materials and standard macOS controls.
-• Redesigns the toolbar, filters, conversation browser, status bar, chat transcript, locked screen, attachment cards, and Settings presentation.
-• Uses an Activity Monitor-inspired hierarchy with translucent chrome, native tables, restrained controls, and a compact status strip.
-• Keeps the v1.4.x Keychain protections, auto-locking, Sparkle signature verification, and user-approved installs.
+• Redesigns the Retrieve window with Google Vault-style search criteria.
+• Adds a staff-user field with a selectable list of users already loaded in the current session, plus direct email entry.
+• Adds message search terms, conversation-title filtering, speaker selection, and From/Through date criteria before retrieval.
+• Preset date buttons for Today, Last 24 Hours, and Last 7 Days remain available.
+• Retrieval still uses OpenAI&#x27;s time-based Compliance log feed; user/text/title/speaker criteria are applied locally immediately after download.
+• Search criteria carry into the main viewer so the returned result set is already filtered when the Retrieve window closes.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="xRnmvKwAvYZDKEFkS902jLYTr0HX3qiTNs19CCq0WzjF1veY5saYpXMIYhBx0jYAiNJ5hksctjWqIuI6+ph1Cg=="
-        length="2816154"
+        sparkle:edSignature="zzPGrZcdmiljo4F0TjQMotvPqjb41/MTOlqwppFNG5wOkm4EmJDJvXfqEt4iHci/sxt/smDOjxgf2Z9IKFWwCw=="
+        length="2849727"
         type="application/octet-stream" />
     </item>
   </channel>
