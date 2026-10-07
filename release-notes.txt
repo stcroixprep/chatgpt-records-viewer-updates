@@ -1,8 +1,5 @@
-Version 1.6.10
+Version 1.6.11
 
-• Reverts Retrieve to the same neutral macOS toolbar treatment as the other controls.
-• Rebuilds toolbar groups as explicit rounded pill controls so their borders and backgrounds remain visible in the title bar.
-• Adds vertical divider lines inside Paste/Open, CSV/Transcript, and Threads/Messages pills, matching the grouped-control treatment used by Apple Mail.
-• Gives Settings a compact circular/rounded bubble and Retrieve a wider neutral pill.
-• Adds extra outer padding to every custom toolbar item so both the live toolbar and the Customize Toolbar palette have more Apple Mail-like breathing room.
-• Keeps the native macOS toolbar customizer, drag-and-drop rearrangement, Space, Flexible Space, display modes, and automatic layout persistence.
+• Removes the duplicate retrieval progress bar from the main window status area.
+• Keeps the progress bar only inside the Retrieve Conversation Records window, where the download is being managed.
+• Leaves the main status bar available for concise status text without a second progress line.
