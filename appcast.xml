@@ -7,23 +7,24 @@
     <description>St. Croix Prep ChatGPT Records Viewer updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.6.9</title>
-      <pubDate>Wed, 07 Oct 2026 19:07:18 +0000</pubDate>
-      <sparkle:version>1.6.9</sparkle:version>
-      <sparkle:shortVersionString>1.6.9</sparkle:shortVersionString>
+      <title>Version 1.6.10</title>
+      <pubDate>Wed, 07 Oct 2026 19:17:39 +0000</pubDate>
+      <sparkle:version>1.6.10</sparkle:version>
+      <sparkle:shortVersionString>1.6.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.9
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.10
 
-• Gives toolbar actions native macOS pill/bubble styling instead of floating bare icons.
-• Groups Paste/Open, CSV/Transcript, and Threads/Messages inside rounded segmented pills with vertical dividers.
-• Keeps Settings as a compact rounded bubble.
-• Makes Retrieve a solid green wide pill with white iconography and a lighter green hover state.
-• Adds more horizontal breathing room to custom toolbar items so the Customize Toolbar palette is spaced more like Apple Mail.
+• Reverts Retrieve to the same neutral macOS toolbar treatment as the other controls.
+• Rebuilds toolbar groups as explicit rounded pill controls so their borders and backgrounds remain visible in the title bar.
+• Adds vertical divider lines inside Paste/Open, CSV/Transcript, and Threads/Messages pills, matching the grouped-control treatment used by Apple Mail.
+• Gives Settings a compact circular/rounded bubble and Retrieve a wider neutral pill.
+• Adds extra outer padding to every custom toolbar item so both the live toolbar and the Customize Toolbar palette have more Apple Mail-like breathing room.
+• Keeps the native macOS toolbar customizer, drag-and-drop rearrangement, Space, Flexible Space, display modes, and automatic layout persistence.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="m/YYaLtTXbSC/U3beE45ELDrFbIAU8829piSvD/k0bJC4ttFyLmXqqDTJN9xMhBrUlzsXyovlTTO41pMqOjpCQ=="
-        length="2892856"
+        sparkle:edSignature="HIKcyO8XgkpjDTrhTg5OzJPMPumzq+wPoRZRzl61yIFurreY6e+H1cq5T0xZ4O3wjAiUPe5HbN9rm0WEaxmrCg=="
+        length="2898571"
         type="application/octet-stream" />
     </item>
   </channel>
