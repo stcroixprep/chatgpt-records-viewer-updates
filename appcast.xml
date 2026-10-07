@@ -7,24 +7,23 @@
     <description>St. Croix Prep ChatGPT Records Viewer updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.6.8</title>
-      <pubDate>Wed, 07 Oct 2026 18:59:13 +0000</pubDate>
-      <sparkle:version>1.6.8</sparkle:version>
-      <sparkle:shortVersionString>1.6.8</sparkle:shortVersionString>
+      <title>Version 1.6.9</title>
+      <pubDate>Wed, 07 Oct 2026 19:07:18 +0000</pubDate>
+      <sparkle:version>1.6.9</sparkle:version>
+      <sparkle:shortVersionString>1.6.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.8
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.9
 
-• Replaces the simulated in-content toolbar with a real native macOS NSToolbar integrated into the window title bar.
-• Right-click anywhere in the native toolbar to use the standard macOS Icon and Text, Icon Only, Text Only, and Customize Toolbar… menu.
-• Uses Apple’s built-in Customize Toolbar palette so buttons, Space, Flexible Space, and the default set can be dragged directly into and out of the toolbar.
-• Native toolbar customizations are automatically saved and restored by macOS.
-• Preserves Paste/Open, the standalone wide Retrieve action, CSV/Transcript, Threads/Messages, Settings, and the user’s existing toolbar layout as the starting configuration.
-• Removes the separate custom toolbar editor because the system toolbar now provides the same interaction as Apple Mail and other Mac apps.
+• Gives toolbar actions native macOS pill/bubble styling instead of floating bare icons.
+• Groups Paste/Open, CSV/Transcript, and Threads/Messages inside rounded segmented pills with vertical dividers.
+• Keeps Settings as a compact rounded bubble.
+• Makes Retrieve a solid green wide pill with white iconography and a lighter green hover state.
+• Adds more horizontal breathing room to custom toolbar items so the Customize Toolbar palette is spaced more like Apple Mail.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="/xchxEp/NlRKmKRRLJyfkwCyK6WL0O8LyNG09qatuanuFOm5OoUW9l8JkWpVfdp6u21ox+2Tm3vxmsfbjl7lDg=="
-        length="2887977"
+        sparkle:edSignature="m/YYaLtTXbSC/U3beE45ELDrFbIAU8829piSvD/k0bJC4ttFyLmXqqDTJN9xMhBrUlzsXyovlTTO41pMqOjpCQ=="
+        length="2892856"
         type="application/octet-stream" />
     </item>
   </channel>
