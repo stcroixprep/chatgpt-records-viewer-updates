@@ -1,7 +1,8 @@
-Version 1.6.14
+Version 1.6.15
 
-• Renames the installed application, main window, lock controls, and relevant interface text to ChatGPT Records.
-• Adds a successful-authentication unlock animation: the lock opens, a green confirmation ring animates, and the app displays a brief “Opening ChatGPT Records…” confirmation before showing records.
-• Respects the macOS Reduce Motion preference.
-• Keeps the existing bundle identifier, Keychain identity, Sparkle public key, and update feed so the existing installation can continue updating.
-• Renames the compiled .app, ZIP, DMG, and GitHub build artifacts, while retaining the existing public update archive URL for backwards compatibility.
+• Hides the app name from the main window title bar, while preserving its macOS menu bar and accessibility identity.
+• Makes the macOS title bar transparent with a full-size content view, uses the system window background, and removes the toolbar divider for a unified Mail/Safari-style appearance.
+• Preserves the existing native toolbar controls and user-saved toolbar configuration.
+• Avoids resetting the toolbar or validating items while the customization palette is actively handling drag-and-drop.
+• Adds a Toolbar menu with Customize Toolbar…, Add Flexible Space, and Add Space as reliable ways to adjust toolbar spacing even if drag-and-drop is unavailable on a particular macOS version.
+• Keeps Touch ID authentication, local Keychain credentials, the same app bundle identifier, and the existing signed Sparkle update feed.

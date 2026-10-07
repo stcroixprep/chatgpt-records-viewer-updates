@@ -7,23 +7,24 @@
     <description>St. Croix Prep ChatGPT Records updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.6.14</title>
-      <pubDate>Wed, 07 Oct 2026 23:47:49 +0000</pubDate>
-      <sparkle:version>1.6.14</sparkle:version>
-      <sparkle:shortVersionString>1.6.14</sparkle:shortVersionString>
+      <title>Version 1.6.15</title>
+      <pubDate>Wed, 07 Oct 2026 23:53:13 +0000</pubDate>
+      <sparkle:version>1.6.15</sparkle:version>
+      <sparkle:shortVersionString>1.6.15</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.14
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.15
 
-• Renames the installed application, main window, lock controls, and relevant interface text to ChatGPT Records.
-• Adds a successful-authentication unlock animation: the lock opens, a green confirmation ring animates, and the app displays a brief “Opening ChatGPT Records…” confirmation before showing records.
-• Respects the macOS Reduce Motion preference.
-• Keeps the existing bundle identifier, Keychain identity, Sparkle public key, and update feed so the existing installation can continue updating.
-• Renames the compiled .app, ZIP, DMG, and GitHub build artifacts, while retaining the existing public update archive URL for backwards compatibility.
+• Hides the app name from the main window title bar, while preserving its macOS menu bar and accessibility identity.
+• Makes the macOS title bar transparent with a full-size content view, uses the system window background, and removes the toolbar divider for a unified Mail/Safari-style appearance.
+• Preserves the existing native toolbar controls and user-saved toolbar configuration.
+• Avoids resetting the toolbar or validating items while the customization palette is actively handling drag-and-drop.
+• Adds a Toolbar menu with Customize Toolbar…, Add Flexible Space, and Add Space as reliable ways to adjust toolbar spacing even if drag-and-drop is unavailable on a particular macOS version.
+• Keeps Touch ID authentication, local Keychain credentials, the same app bundle identifier, and the existing signed Sparkle update feed.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="94lGksVL3b3tKS1DpwkQR4HVMc1+h3tt84ZjdOVaHrhu5Xavh13A/eo6YKCI10OWNb2WTMT8odEstpvo+ElRBg=="
-        length="2953100"
+        sparkle:edSignature="a9jYF2tyJKx/L7/N0xuyVIhLhAB7rb724TBWr//sUGOKHH1MFIf/YcNO/UCoeiK4AnKWr3600wBjX+JKsP3pCg=="
+        length="2961362"
         type="application/octet-stream" />
     </item>
   </channel>
