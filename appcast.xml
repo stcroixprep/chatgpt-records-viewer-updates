@@ -7,24 +7,28 @@
     <description>St. Croix Prep ChatGPT Records Viewer updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.6.2</title>
-      <pubDate>Wed, 07 Oct 2026 15:43:02 +0000</pubDate>
-      <sparkle:version>1.6.2</sparkle:version>
-      <sparkle:shortVersionString>1.6.2</sparkle:shortVersionString>
+      <title>Version 1.6.3</title>
+      <pubDate>Wed, 07 Oct 2026 16:08:19 +0000</pubDate>
+      <sparkle:version>1.6.3</sparkle:version>
+      <sparkle:shortVersionString>1.6.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.2
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.3
 
-• Fixes the -34018 “A required entitlement is not present” Keychain error introduced in 1.6.1.
-• The current public build is still ad-hoc signed, so it cannot use the data-protection Keychain mode that requires application entitlements.
-• Restores the traditional macOS Keychain storage path while keeping Touch ID / Mac authentication as the app gate before protected data is loaded.
-• Existing stored credentials remain compatible.
-• On an ad-hoc-signed build, macOS may ask for Keychain trust again after an app update. Choosing “Always Allow” trusts the currently installed build.
-• Keeps the Staff email chevron alignment fix from 1.6.1.
+• Simplifies the retrieval form to Staff user, message search terms, and date range.
+• Removes the extra Select control, Conversation title, and Speaker controls.
+• Uses white backgrounds for text-entry fields and fixes the duplicate Staff email chevron.
+• Keeps the retrieval action buttons fixed at the bottom while records download.
+• Shows green connection checkmarks when retrieval is ready.
+• Keeps the conversations table and headers contained within the left pane.
+• Replaces the sparkle avatar with the app icon for ChatGPT messages.
+• Shows an animated confirmation after CSV, transcript, or attachment saves.
+• Removes duplicate compliance events before rendering.
+• Improves attachment reference detection and file retrieval diagnostics.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="+eRYytG2Ac8JmzSYktrVGRNvKF8A+WFmYZwfg+qo7t30fCgabMnS7SbvJ8di1f2cvFa2iSbS0wE8I+95d0qdCg=="
-        length="2850456"
+        sparkle:edSignature="Bj//bp3UpRClWjvHajiwTeeQQ5s/25UHPHfiQ6zg+WP0usPVBfPR+bTM+iNstFi2w4KhreriykfyXsrnYWb1BA=="
+        length="2862356"
         type="application/octet-stream" />
     </item>
   </channel>

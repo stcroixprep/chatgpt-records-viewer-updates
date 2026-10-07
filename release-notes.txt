@@ -1,8 +1,12 @@
-Version 1.6.2
+Version 1.6.3
 
-• Fixes the -34018 “A required entitlement is not present” Keychain error introduced in 1.6.1.
-• The current public build is still ad-hoc signed, so it cannot use the data-protection Keychain mode that requires application entitlements.
-• Restores the traditional macOS Keychain storage path while keeping Touch ID / Mac authentication as the app gate before protected data is loaded.
-• Existing stored credentials remain compatible.
-• On an ad-hoc-signed build, macOS may ask for Keychain trust again after an app update. Choosing “Always Allow” trusts the currently installed build.
-• Keeps the Staff email chevron alignment fix from 1.6.1.
+• Simplifies the retrieval form to Staff user, message search terms, and date range.
+• Removes the extra Select control, Conversation title, and Speaker controls.
+• Uses white backgrounds for text-entry fields and fixes the duplicate Staff email chevron.
+• Keeps the retrieval action buttons fixed at the bottom while records download.
+• Shows green connection checkmarks when retrieval is ready.
+• Keeps the conversations table and headers contained within the left pane.
+• Replaces the sparkle avatar with the app icon for ChatGPT messages.
+• Shows an animated confirmation after CSV, transcript, or attachment saves.
+• Removes duplicate compliance events before rendering.
+• Improves attachment reference detection and file retrieval diagnostics.
