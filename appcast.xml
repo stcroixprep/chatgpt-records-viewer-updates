@@ -7,23 +7,24 @@
     <description>St. Croix Prep ChatGPT Records Viewer updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.6.6</title>
-      <pubDate>Wed, 07 Oct 2026 18:27:17 +0000</pubDate>
-      <sparkle:version>1.6.6</sparkle:version>
-      <sparkle:shortVersionString>1.6.6</sparkle:shortVersionString>
+      <title>Version 1.6.7</title>
+      <pubDate>Wed, 07 Oct 2026 18:51:43 +0000</pubDate>
+      <sparkle:version>1.6.7</sparkle:version>
+      <sparkle:shortVersionString>1.6.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.6
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.7
 
-• Makes Retrieve its own standalone double-wide toolbar button instead of grouping it with Paste and Open.
-• Adds a Customize Toolbar window for showing, hiding, and reordering toolbar groups.
-• Adds Apple Mail-style toolbar display choices: Icon and Text, Icon Only, and Text Only.
-• Adds Customize Toolbar… to the toolbar context menu and Settings &gt; Appearance.
-• Preserves the default grouped pills for Paste/Open, CSV/Transcript, and Threads/Messages while allowing the overall toolbar layout to be rearranged.
+• Makes the toolbar customizer feel more like Apple Mail and other macOS apps.
+• Adds a fixed Space item and a Flexible Space item for toolbar layout.
+• Allows multiple Space and Flexible Space items to be inserted, reordered, and removed.
+• Shows a live Current Toolbar preview so spacing choices are easier to understand.
+• Fixed Space creates a consistent empty gap; Flexible Space expands to push later controls toward the far side.
+• Keeps Icon and Text, Icon Only, Text Only, show/hide controls, reordering, and Restore Default Set.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="afV9FxmWOzXnZMxF+RkTYQ3sHPnOYKq/V7Orhq1ffcKN8N0nVnsoENXm6rBvlshUOmhZ1vJTyjjmu3XTj34mBw=="
-        length="2945817"
+        sparkle:edSignature="feSN63paycB0sukpdpAM1ikmLsf4zSxfBxM3MhiR+3mEmJd3ZeNm1NvIg4OjAk3TMYwIRB7bi6gimlwy/m6ADA=="
+        length="2974352"
         type="application/octet-stream" />
     </item>
   </channel>

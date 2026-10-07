@@ -1,7 +1,8 @@
-Version 1.6.6
+Version 1.6.7
 
-• Makes Retrieve its own standalone double-wide toolbar button instead of grouping it with Paste and Open.
-• Adds a Customize Toolbar window for showing, hiding, and reordering toolbar groups.
-• Adds Apple Mail-style toolbar display choices: Icon and Text, Icon Only, and Text Only.
-• Adds Customize Toolbar… to the toolbar context menu and Settings > Appearance.
-• Preserves the default grouped pills for Paste/Open, CSV/Transcript, and Threads/Messages while allowing the overall toolbar layout to be rearranged.
+• Makes the toolbar customizer feel more like Apple Mail and other macOS apps.
+• Adds a fixed Space item and a Flexible Space item for toolbar layout.
+• Allows multiple Space and Flexible Space items to be inserted, reordered, and removed.
+• Shows a live Current Toolbar preview so spacing choices are easier to understand.
+• Fixed Space creates a consistent empty gap; Flexible Space expands to push later controls toward the far side.
+• Keeps Icon and Text, Icon Only, Text Only, show/hide controls, reordering, and Restore Default Set.
