@@ -7,24 +7,25 @@
     <description>St. Croix Prep ChatGPT Records updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.6.16</title>
-      <pubDate>Thu, 08 Oct 2026 00:16:57 +0000</pubDate>
-      <sparkle:version>1.6.16</sparkle:version>
-      <sparkle:shortVersionString>1.6.16</sparkle:shortVersionString>
+      <title>Version 1.6.17</title>
+      <pubDate>Thu, 08 Oct 2026 00:24:16 +0000</pubDate>
+      <sparkle:version>1.6.17</sparkle:version>
+      <sparkle:shortVersionString>1.6.17</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.16
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.17
 
-• Restores a Mail-style context menu when right-clicking the main window toolbar/titlebar.
-• Offers Icon and Text, Icon Only, Text Only, and Customize Toolbar… directly from that context menu.
-• Adds an Add Flexible Space shortcut to the context menu.
-• Restricts this right-click behavior to the window&#x27;s actual toolbar strip, leaving the search fields, conversations, and records area untouched.
-• Preserves native NSToolbar customization/autosaving, the unified titleless window, and the existing Toolbar menu commands.
-• Leaves Touch ID, Keychain storage, the app bundle identifier, and the signed update feed unchanged.
+• Removes &quot;Add Flexible Space&quot; from the toolbar right-click menu, leaving the display-style choices and Customize Toolbar… option.
+• Hides the main-window staff-email, search, and date filter panel until a Retrieve search finishes successfully.
+• Keeps the filters visible after a successful retrieval, even if the search returns no matching records.
+• Makes Cancel available during an active retrieval. Cancel now interrupts the underlying Compliance Platform network task, dismisses the retrieval window, and prevents late responses from overwriting existing results.
+• Prevents canceled retrievals from changing the currently applied search filters.
+• Renames the Retrieve &amp; Filter button to Retrieve.
+• Preserves the native unified toolbar, Touch ID, Keychain credentials, and existing signed update channel.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="LxPA9cy0jVel40Qz8WeT99qDz2CFhukuzJ/l/+ksfDr+qlq+HfPJBlIONbd4sv4mmSKUhPmRBL1natM42MyiAA=="
-        length="2964092"
+        sparkle:edSignature="J/ohlXq6QVIl8bSWFvI9SL7l3dkB9UV2ADZbdscItRp781guDIh6V+PQz8K7rCCgyCihWNfI2Njv2T+I6ikTDQ=="
+        length="2971148"
         type="application/octet-stream" />
     </item>
   </channel>

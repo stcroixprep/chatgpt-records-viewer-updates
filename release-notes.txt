@@ -1,8 +1,9 @@
-Version 1.6.16
+Version 1.6.17
 
-• Restores a Mail-style context menu when right-clicking the main window toolbar/titlebar.
-• Offers Icon and Text, Icon Only, Text Only, and Customize Toolbar… directly from that context menu.
-• Adds an Add Flexible Space shortcut to the context menu.
-• Restricts this right-click behavior to the window's actual toolbar strip, leaving the search fields, conversations, and records area untouched.
-• Preserves native NSToolbar customization/autosaving, the unified titleless window, and the existing Toolbar menu commands.
-• Leaves Touch ID, Keychain storage, the app bundle identifier, and the signed update feed unchanged.
+• Removes "Add Flexible Space" from the toolbar right-click menu, leaving the display-style choices and Customize Toolbar… option.
+• Hides the main-window staff-email, search, and date filter panel until a Retrieve search finishes successfully.
+• Keeps the filters visible after a successful retrieval, even if the search returns no matching records.
+• Makes Cancel available during an active retrieval. Cancel now interrupts the underlying Compliance Platform network task, dismisses the retrieval window, and prevents late responses from overwriting existing results.
+• Prevents canceled retrievals from changing the currently applied search filters.
+• Renames the Retrieve & Filter button to Retrieve.
+• Preserves the native unified toolbar, Touch ID, Keychain credentials, and existing signed update channel.
