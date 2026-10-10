@@ -7,25 +7,29 @@
     <description>St. Croix Prep ChatGPT Records updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.6.17</title>
-      <pubDate>Thu, 08 Oct 2026 00:24:16 +0000</pubDate>
-      <sparkle:version>1.6.17</sparkle:version>
-      <sparkle:shortVersionString>1.6.17</sparkle:shortVersionString>
+      <title>Version 1.6.19</title>
+      <pubDate>Sat, 10 Oct 2026 03:00:18 +0000</pubDate>
+      <sparkle:version>1.6.19</sparkle:version>
+      <sparkle:shortVersionString>1.6.19</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.17
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.19
 
-• Removes &quot;Add Flexible Space&quot; from the toolbar right-click menu, leaving the display-style choices and Customize Toolbar… option.
-• Hides the main-window staff-email, search, and date filter panel until a Retrieve search finishes successfully.
-• Keeps the filters visible after a successful retrieval, even if the search returns no matching records.
-• Makes Cancel available during an active retrieval. Cancel now interrupts the underlying Compliance Platform network task, dismisses the retrieval window, and prevents late responses from overwriting existing results.
-• Prevents canceled retrievals from changing the currently applied search filters.
-• Renames the Retrieve &amp; Filter button to Retrieve.
-• Preserves the native unified toolbar, Touch ID, Keychain credentials, and existing signed update channel.
+• Introduces St. Croix Preparatory Academy Developer ID signing and Apple notarization for standard macOS installation and in-place Sparkle updates.
+• Adds a default Readable View for ChatGPT conversation transcripts. Known presentation tags are converted to readable text instead of showing formatting markup; Show Raw Content preserves access to the original, unmodified message.
+• Lets you search for multiple staff email addresses using removable blue recipient tokens, with matching records from any selected user.
+• Adds ascending and descending sorting for the Last activity, User, Conversation, and Messages columns.
+• Simplifies conversation metadata and matching-message counts into plain, non-clickable labels rather than button-like bubbles.
+• Improves toolbar appearance, search-field spacing and contrast, and simplifies the Retrieve dialog header.
+• Downloads up to four independent Compliance log files concurrently, with bounded retries for temporary service throttling and more accurate progress reporting.
+• Improves read-only fallback and diagnostic messages for uploaded attachments. Attachment availability and permissions remain subject to the OpenAI Compliance API.
+• Keeps the empty Conversations screen hidden until retrieval or import, and preserves the existing Touch ID and Keychain security experience.
+
+Release notes cover the changes since the last published Sparkle version, 1.6.17.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="J/ohlXq6QVIl8bSWFvI9SL7l3dkB9UV2ADZbdscItRp781guDIh6V+PQz8K7rCCgyCihWNfI2Njv2T+I6ikTDQ=="
-        length="2971148"
+        sparkle:edSignature="jHIcAxy3tEZyOnI2AfsMxhuFX/I6DtMJQiRzwz4tTPplUfo3/s61KNxZVxdQnQliKZPPcW8qe221whKq2lW0AA=="
+        length="3081926"
         type="application/octet-stream" />
     </item>
   </channel>
