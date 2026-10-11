@@ -1,6 +1,6 @@
-# ChatGPT Records Updates
+# ChatView Updates
 
-Public update payloads for the St. Croix Prep ChatGPT Records.
+Public update payloads for the St. Croix Prep ChatView app.
 
 This repository intentionally contains only:
 - the current compiled update archive,
@@ -9,4 +9,4 @@ This repository intentionally contains only:
 
 It does **not** contain application source code, OpenAI credentials, school records, workspace data, or private signing keys.
 
-Current published version: **1.6.19**
+Current published version: **1.6.21**

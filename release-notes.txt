@@ -1,13 +1,10 @@
-Version 1.6.19
+Version 1.6.21
 
-• Introduces St. Croix Preparatory Academy Developer ID signing and Apple notarization for standard macOS installation and in-place Sparkle updates.
-• Adds a default Readable View for ChatGPT conversation transcripts. Known presentation tags are converted to readable text instead of showing formatting markup; Show Raw Content preserves access to the original, unmodified message.
-• Lets you search for multiple staff email addresses using removable blue recipient tokens, with matching records from any selected user.
-• Adds ascending and descending sorting for the Last activity, User, Conversation, and Messages columns.
-• Simplifies conversation metadata and matching-message counts into plain, non-clickable labels rather than button-like bubbles.
-• Improves toolbar appearance, search-field spacing and contrast, and simplifies the Retrieve dialog header.
-• Downloads up to four independent Compliance log files concurrently, with bounded retries for temporary service throttling and more accurate progress reporting.
-• Improves read-only fallback and diagnostic messages for uploaded attachments. Attachment availability and permissions remain subject to the OpenAI Compliance API.
-• Keeps the empty Conversations screen hidden until retrieval or import, and preserves the existing Touch ID and Keychain security experience.
+• Renames the macOS app ChatView to represent both ChatGPT and Claude staff records.
+• Replaces the old app artwork with a platform-neutral ChatView icon featuring overlapping conversation bubbles and a search lens.
+• Keeps the bundle identifier, executable, Keychain service, Sparkle feed URL, and public update archive filename unchanged for continuity with installed versions.
+• Adds Claude Enterprise Compliance API retrieval alongside ChatGPT Enterprise/Edu retrieval, including staff filters, date and message search, conversation transcripts, and available attachments.
+• Uses separately secured provider access keys in macOS Keychain with the existing authentication and automatic lock behavior.
+• Displays Claude's name and icon in Claude transcripts and the correct provider label in the Messages table.
 
-Release notes cover the changes since the last published Sparkle version, 1.6.17.
+These release notes cover changes since the previously published Sparkle version 1.6.19. The app does not provide automatic long-term archival or legal holds.
