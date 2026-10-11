@@ -1,10 +1,10 @@
-Version 1.6.21
+Version 1.6.22
 
-• Renames the macOS app ChatView to represent both ChatGPT and Claude staff records.
-• Replaces the old app artwork with a platform-neutral ChatView icon featuring overlapping conversation bubbles and a search lens.
-• Keeps the bundle identifier, executable, Keychain service, Sparkle feed URL, and public update archive filename unchanged for continuity with installed versions.
-• Adds Claude Enterprise Compliance API retrieval alongside ChatGPT Enterprise/Edu retrieval, including staff filters, date and message search, conversation transcripts, and available attachments.
-• Uses separately secured provider access keys in macOS Keychain with the existing authentication and automatic lock behavior.
-• Displays Claude's name and icon in Claude transcripts and the correct provider label in the Messages table.
+• Adds a Both Platforms option in Retrieve to collect ChatGPT and Claude staff conversation records concurrently into one searchable view.
+• Preserves source-specific transcript labels, attachments, and CSV/HTML exports when results from both providers are combined.
+• Uses green checked boxes throughout the retrieval and search controls, with matching green connection-success indicators.
+• Adds an optional Settings checkbox to offer the Retrieve window automatically after launch/unlock and after clearing a search or closing a conversation preview.
+• The automatic prompt is disabled by default and does not immediately reopen when canceled.
+• Keeps ChatView's existing macOS bundle identifier, Keychain security, in-place Sparkle update feed, and signed release process.
 
-These release notes cover changes since the previously published Sparkle version 1.6.19. The app does not provide automatic long-term archival or legal holds.
+The combined view is on-demand retrieval, not a continuous records archive or legal-hold system.

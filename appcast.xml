@@ -7,26 +7,26 @@
     <description>St. Croix Prep ChatView updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.6.21</title>
-      <pubDate>Sun, 11 Oct 2026 23:13:09 +0000</pubDate>
-      <sparkle:version>1.6.21</sparkle:version>
-      <sparkle:shortVersionString>1.6.21</sparkle:shortVersionString>
+      <title>Version 1.6.22</title>
+      <pubDate>Sun, 11 Oct 2026 23:39:25 +0000</pubDate>
+      <sparkle:version>1.6.22</sparkle:version>
+      <sparkle:shortVersionString>1.6.22</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.21
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.22
 
-• Renames the macOS app ChatView to represent both ChatGPT and Claude staff records.
-• Replaces the old app artwork with a platform-neutral ChatView icon featuring overlapping conversation bubbles and a search lens.
-• Keeps the bundle identifier, executable, Keychain service, Sparkle feed URL, and public update archive filename unchanged for continuity with installed versions.
-• Adds Claude Enterprise Compliance API retrieval alongside ChatGPT Enterprise/Edu retrieval, including staff filters, date and message search, conversation transcripts, and available attachments.
-• Uses separately secured provider access keys in macOS Keychain with the existing authentication and automatic lock behavior.
-• Displays Claude&#x27;s name and icon in Claude transcripts and the correct provider label in the Messages table.
+• Adds a Both Platforms option in Retrieve to collect ChatGPT and Claude staff conversation records concurrently into one searchable view.
+• Preserves source-specific transcript labels, attachments, and CSV/HTML exports when results from both providers are combined.
+• Uses green checked boxes throughout the retrieval and search controls, with matching green connection-success indicators.
+• Adds an optional Settings checkbox to offer the Retrieve window automatically after launch/unlock and after clearing a search or closing a conversation preview.
+• The automatic prompt is disabled by default and does not immediately reopen when canceled.
+• Keeps ChatView&#x27;s existing macOS bundle identifier, Keychain security, in-place Sparkle update feed, and signed release process.
 
-These release notes cover changes since the previously published Sparkle version 1.6.19. The app does not provide automatic long-term archival or legal holds.
+The combined view is on-demand retrieval, not a continuous records archive or legal-hold system.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="JHtvL6OMlKgLEdd1G/tESq1SFB8eqfD7OM0KP9rcl+2Fgxpq0RckCKKU3OX+sLLT5tNbfVJIAXs3I9D3749PDg=="
-        length="2929307"
+        sparkle:edSignature="HLt/hqfl+1J+D3X0idTl4vpNRmvJvZOWMFPvKjJeYWLNJcYpAL0biXr3ab1oTCKx7AglsP+lo8HTxpJE+3DcBg=="
+        length="2951115"
         type="application/octet-stream" />
     </item>
   </channel>
