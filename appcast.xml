@@ -7,26 +7,28 @@
     <description>St. Croix Prep ChatView updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.6.22</title>
-      <pubDate>Sun, 11 Oct 2026 23:39:25 +0000</pubDate>
-      <sparkle:version>1.6.22</sparkle:version>
-      <sparkle:shortVersionString>1.6.22</sparkle:shortVersionString>
+      <title>Version 1.6.23</title>
+      <pubDate>Sun, 11 Oct 2026 23:56:26 +0000</pubDate>
+      <sparkle:version>1.6.23</sparkle:version>
+      <sparkle:shortVersionString>1.6.23</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.22
+      <description><![CDATA[<pre style='white-space:pre-wrap;font:14px -apple-system,BlinkMacSystemFont,sans-serif'>Version 1.6.23
 
-• Adds a Both Platforms option in Retrieve to collect ChatGPT and Claude staff conversation records concurrently into one searchable view.
-• Preserves source-specific transcript labels, attachments, and CSV/HTML exports when results from both providers are combined.
-• Uses green checked boxes throughout the retrieval and search controls, with matching green connection-success indicators.
-• Adds an optional Settings checkbox to offer the Retrieve window automatically after launch/unlock and after clearing a search or closing a conversation preview.
-• The automatic prompt is disabled by default and does not immediately reopen when canceled.
-• Keeps ChatView&#x27;s existing macOS bundle identifier, Keychain security, in-place Sparkle update feed, and signed release process.
+• Show retrieval progress only in the Retrieve dialog, not behind it in the main app window.
+• Use an advancing left-to-right percentage bar for ChatGPT, Claude, and Both Platforms retrieval instead of an animated back-and-forth bar.
+• Add a Chatbot filter (All chatbots, ChatGPT, Claude) and a sortable Chatbot column to the conversation list.
+• Closing the conversation preview with X now returns to the conversation list without reopening Retrieve, even when automatic retrieval prompting is enabled.
+• Add Last 30 Days and Last 60 Days shortcuts to the Retrieve dialog.
+• Format Claude text and tool activity as readable conversation text; verbose structured tool payloads are not shown in the normal message viewer or the CSV/HTML transcript exports.
+• Preserve original Claude structured blocks for the Show Raw Content option. Exported records include a chatbot identifier.
+• Retain existing security, per-provider attachment handling, and the automatic signed/notarized Sparkle release pipeline.
 
-The combined view is on-demand retrieval, not a continuous records archive or legal-hold system.
+The records viewer remains an on-demand retrieval tool; it does not provide automatic preservation or legal holds.
 </pre>]]></description>
       <enclosure
         url="https://raw.githubusercontent.com/stcroixprep/chatgpt-records-viewer-updates/main/ChatGPT-Records-Viewer.zip"
-        sparkle:edSignature="HLt/hqfl+1J+D3X0idTl4vpNRmvJvZOWMFPvKjJeYWLNJcYpAL0biXr3ab1oTCKx7AglsP+lo8HTxpJE+3DcBg=="
-        length="2951115"
+        sparkle:edSignature="iYVsZajqKbnrpKclD+W7mGcMCKe/TnjPfvFoTzG4bjupcn/88aQD6DdS5JV9Ki6Cy/xsKCn8LmWitDNNQ9CpAw=="
+        length="2960671"
         type="application/octet-stream" />
     </item>
   </channel>
